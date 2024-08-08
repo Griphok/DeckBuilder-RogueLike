@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://dk5q3b76174iy"]
+
+[ext_resource type="Script" path="res://Card.gd" id="1_ncplr"]
+[ext_resource type="FontFile" uid="uid://dwr2oyr71he7y" path="res://Assets/Rohmaterial/GomePixel-ARJd7.otf" id="6_vfhr7"]
+[ext_resource type="FontFile" uid="uid://de8pjc5pqm1an" path="res://Assets/Rohmaterial/GomePixel-DYJX1.otf" id="7_3ilk0"]
+
+[node name="base_card" type="Node2D"]
+script = ExtResource("1_ncplr")
+
+[node name="card_back" type="Sprite2D" parent="."]
+
+[node name="card_boarder" type="Sprite2D" parent="."]
+position = Vector2(1.43051e-06, -8)
+scale = Vector2(0.894118, 0.722222)
+
+[node name="card_titel_background" type="Sprite2D" parent="."]
+position = Vector2(0, -47)
+scale = Vector2(0.834211, 0.607143)
+
+[node name="card_titel_lbl" type="Label" parent="card_titel_background"]
+offset_left = -46.0
+offset_top = -12.0
+offset_right = 103.0
+offset_bottom = 11.0
+scale = Vector2(0.620819, 1.00551)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_vfhr7")
+theme_override_font_sizes/font_size = 16
+text = "Titel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="card_desc_background" type="Sprite2D" parent="."]
+position = Vector2(0, 39)
+scale = Vector2(0.831579, 1.83333)
+
+[node name="card_desc_lbl" type="Label" parent="card_desc_background"]
+offset_left = -46.0
+offset_top = -7.0
+offset_right = 131.0
+offset_bottom = 27.0
+scale = Vector2(0.518987, 0.378882)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("7_3ilk0")
+theme_override_font_sizes/font_size = 16
+text = "Description"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="card_art" type="Sprite2D" parent="."]
+position = Vector2(0, -8)

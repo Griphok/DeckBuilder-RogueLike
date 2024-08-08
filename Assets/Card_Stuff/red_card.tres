@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cv7yqgepp5l3x"]
+
+[ext_resource type="Texture2D" uid="uid://bd6m5mcf8xqin" path="res://Assets/Rohmaterial/pixelCardAssest.png" id="1_dor80"]
+
+[resource]
+atlas = ExtResource("1_dor80")
+region = Rect2(132.761, 3.602, 100.557, 128.504)
