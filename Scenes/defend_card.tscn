@@ -1,7 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://l3dlmgxs1rb3"]
+[gd_scene load_steps=7 format=3 uid="uid://l3dlmgxs1rb3"]
 
 [ext_resource type="PackedScene" uid="uid://dk5q3b76174iy" path="res://Scenes/base_card.tscn" id="1_vwf6m"]
+[ext_resource type="Texture2D" uid="uid://bthodkvlgxvrd" path="res://Assets/Card_Stuff/blue_card.tres" id="2_jmbqk"]
+[ext_resource type="Texture2D" uid="uid://h1k30w6ynvwt" path="res://Assets/Card_Stuff/art_boarder_bronze.tres" id="3_7bfsn"]
+[ext_resource type="Texture2D" uid="uid://8pbfk16qgvt4" path="res://Assets/Card_Stuff/card_bronze_titel.tres" id="4_3teuk"]
+[ext_resource type="Texture2D" uid="uid://bqly1jtlh15v6" path="res://Assets/Card_Stuff/card_bronze_bottom.tres" id="5_j8bxd"]
+[ext_resource type="Texture2D" uid="uid://dfi7b2l1g3vl" path="res://Assets/Card_Stuff/shield.tres" id="6_isk5y"]
 
 [node name="Defend_Card" type="Node2D"]
 
 [node name="base_card" parent="." instance=ExtResource("1_vwf6m")]
+card_back_art = ExtResource("2_jmbqk")
+card_boarder_art = ExtResource("3_7bfsn")
+card_titel_background = ExtResource("4_3teuk")
+card_desc_background = ExtResource("5_j8bxd")
+card_art = ExtResource("6_isk5y")
+card_titel = "Defend"
+card_description = "Defend + I"

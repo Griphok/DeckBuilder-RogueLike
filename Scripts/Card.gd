@@ -22,6 +22,8 @@ extends Node2D
 func _process(delta):
 	handle_card_graphics()
 
+
+
 func handle_card_graphics():
 	card_back.set_texture(card_back_art)
 	card_boarder.set_texture(card_boarder_art)
