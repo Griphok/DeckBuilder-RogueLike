@@ -1,8 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://dk5q3b76174iy"]
 
-[ext_resource type="Script" path="res://Card.gd" id="1_ncplr"]
+[ext_resource type="Script" path="res://Scripts/Card.gd" id="1_ncplr"]
 [ext_resource type="FontFile" uid="uid://dwr2oyr71he7y" path="res://Assets/Rohmaterial/GomePixel-ARJd7.otf" id="6_vfhr7"]
 [ext_resource type="FontFile" uid="uid://de8pjc5pqm1an" path="res://Assets/Rohmaterial/GomePixel-DYJX1.otf" id="7_3ilk0"]
+
 
 [node name="base_card" type="Node2D"]
 script = ExtResource("1_ncplr")
